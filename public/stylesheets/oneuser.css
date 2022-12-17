@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.padre {
+  background-color: white;
+}
+.padre .seccion1 {
+ padding-top: 120px;
+  margin-bottom: 50px;
+}
+.padre .seccion1 .row1 .col1 img {
+  height: 70vh;
+  width: 100%;
+}
+.padre .seccion1 .row1 .col1 .fondo {
+  color: black;
+  background-color: rgb(205, 200, 200);
+  padding: 50px;
+}
+.padre .seccion1 .row1 .col1 .fondo .eliminar, .padre .seccion1 .row1 .col1 .fondo .editar, .padre .seccion1 .row1 .col1 .fondo .añadir {
+  background-color: red;
+  width: 50px;
+}
+.padre .seccion1 .row1 .col1 .fondo a {
+  width: 60px;
+  margin: 0px 5px;
+}
+.padre .seccion1 .row1 .col1 .fondo .titulo {
+  font-size: 40px;
+}
+.padre .seccion1 .row1 .col1 .fondo .letras {
+  font-size: 18px;
+}
+.padre .seccion1 .row1 .col1 .fondo .letras span {
+  font-weight: bold;
+}
+
+.seccion2 {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.seccion2 .row1 .col1 {
+  text-align: center;
+  padding: 60px;
+}
+.seccion2 .row1 .col1 p {
+  font-size: 60px;
+}
+.seccion2 .row1 .col1 span {
+  font-weight: bold;
+}
+.seccion2 .row2 .col2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.seccion2 .row2 .col2 .card {
+  width: 350px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+.seccion2 .row2 .col2 .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.seccion2 .row2 .col2 .card:hover::before {
+  opacity: 1;
+}
+.seccion2 .row2 .col2 .card .image {
+  width: 100%;
+  height: 100%;
+}
+.seccion2 .row2 .col2 .card .image > img {
+  width: 100%;
+  height: 100%;
+  
+}
+.seccion2 .row2 .col2 .card .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transform: translateY(400px);
+  transition: 1s;
+}
+.seccion2 .row2 .col2 .card:hover .content {
+  transform: translateY(0px);
+}
+.seccion2 .row2 .col2 .card .content .title {
+  margin: 20px 0px;
+}
+.seccion2 .row2 .col2 .card .content .btn {
+  width: 70px;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 0px 10px;
+  color: #f6f6f6;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.seccion2 .row2 .col2 .card .content .btn:hover {
+  color: #333333;
+}
+
+.negro {
+  background-color: black;
+}
+.negro .seccion6 {
+  color: white;
+  background-color: black;
+}
+.negro .seccion6 .row1 .col1 {
+  text-align: center;
+  padding: 3vw 16vw;
+}
+.negro .seccion6 .row2 .col2 {
+  text-align: center;
+}
+.negro .seccion6 .row2 .col2 img {
+  width: 100px;
+}
+
+@media (max-width: 450px) {
+  .seccion2 .row1 .col1 p {
+    font-size: 40px;
+  }
+  .negro .seccion6 .row1 .col1 {
+    margin: 30px 0px;
+  }
+  .negro .seccion6 .row2 .col2 {
+    margin: 30px 0px;
+  }
+}/*# sourceMappingURL=oneuser.css.map */

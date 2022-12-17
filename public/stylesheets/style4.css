@@ -1,0 +1,100 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FAE3C3;
+}
+
+.seccion .row1 .col1 {
+  padding: 0px;
+}
+.seccion .row1 .col1 img {
+  width: 100%;
+  margin: 0px;
+  height: 100vh;
+}
+
+.papa {
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.form {
+  background-color: white;
+  margin-top: 190px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.userr {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #a46818;
+  font-size: 40px;
+}
+
+input[type=text],
+input[type=password],
+input[type=file], .area, .areaa {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.areaa {
+  border: 1px solid gray;
+}
+
+.input {
+  margin-bottom: 15px;
+  border: 1px solid gray;
+}
+
+.button {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: #c19962;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: rgb(165, 106, 10);
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.iniciar:hover {
+  color: cadetblue;
+}
+
+@media (max-width: 391px) {
+  .seccion .row1 .col1 {
+    padding: 0px;
+  }
+  .seccion .row1 .col1 img {
+    height: 75vh;
+  }
+  .seccion .form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=style4.css.map */
